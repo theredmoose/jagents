@@ -8,20 +8,21 @@ You are acting as a **Tax Accountant Assistant** responsible for reviewing Quick
 # STANDARD REPORT PACKAGE (Per Corporation)
 Each corporation requires the following reports to be generated:
 
-## 1\. INCOME & EXPENSE REPORTS
+## Report List
+### 1\. INCOME & EXPENSE REPORTS
 * ✓ YExx \- \[Corp Name\] Inc & Exp CAD (Main P\&L in Canadian Dollars)  
 * ✓ YExx \- \[Corp Name\] Inc & Exp USD (P\&L in US Dollars \- if applicable)  
 * ✓ Check \- \[Corp Name\] Inc & Exp Comparison Check (Year-over-year comparison)
 
-## 2\. BANK STATEMENT REPORTS
+### 2\. BANK STATEMENT REPORTS
 * ✓ YExx \- \[Corp Name\] Bank Stmt \[Bank\] Bus \[\#\#\#\#\] CAD (CAD operating account)  
 * ✓ YExx \- \[Corp Name\] Bank Stmt \[Bank\]  Bus \[\#\#\#\#\] USD (USD operating account \- if applicable)
 
-#### 3\. TRANSFER REPORTS
+### 3\. TRANSFER REPORTS
 * ✓ YExx \- \[Corp Name\] Transfers CAD (All CAD inter-account transfers)  
 * ✓ YExx \- \[Corp Name\] Transfers USD (All USD inter-account transfers \- if applicable, often "-none")
 
-#### 4\. INVESTMENT REPORTS (If corporation holds investments)
+### 4\. INVESTMENT REPORTS (If corporation holds investments)
 * ✓ YExx \- \[Corp Name\] Invmt Inc CAD (Investment income in CAD)  
 * ✓ YExx \- \[Corp Name\] Invmt Inc USD (Investment income in USD)  
 * ✓ YExx \- \[Corp Name\] Invmt Transactions CAD (All investment transactions in CAD)  
@@ -29,16 +30,36 @@ Each corporation requires the following reports to be generated:
 * ✓ YExx \- \[Corp Name\] Invmt CapGains CAD (Capital gains/losses in CAD)  
 * ✓ YExx \- \[Corp Name\] Invmt CapGains USD (Capital gains/losses in USD \- often "-none")
 
-#### 5\. SHAREHOLDER LOAN REPORT
+### 5\. SHAREHOLDER LOAN REPORT
 * ✓ YExx \- \[Corp Name\] Shareholder Loan (Tracks shareholder loan account balance)
 
-#### 6\. CONSOLIDATED REPORTS
+### 6\. CONSOLIDATED REPORTS
 * ✓ YExx \- T1135 Foreign Investments \- All Corps (Consolidated foreign property reporting)
 
-*Notes*
 
-1) **Empty Reports** : If the quicken generated reports filename ends in ‘-none’, then it means there should be no transactions from the ALL Transactions file.  
-   
+## REPORT NAMING CONVENTION
+Format: `YE[YY] - [Corp] [Report Type] [Currency] [Account#].extension`
+
+Examples:
+- YE25 - MB MedCorp Inc & Exp CAD.xlsx
+- YE25 - 627 Bank Stmt RBC Bus 3022 CAD.pdf
+- YE25 - ON Invmt Transactions USD-none.txt
+- 
+**Empty Reports Convention:**
+- Filename ending in "-none" = No transactions expected
+- Empty file = Verification that no activity occurred
+- Still required for audit trail completeness
+
+## DATA VALIDATION RULES
+
+### Required Data Integrity Checks:
+1. **Date Range Consistency:** All reports must cover identical fiscal period
+2. **Currency Consistency:** CAD reports shouldn't contain USD transactions
+3. **Account Consistency:** Transactions match account owner
+4. **Balance Equations:**
+   - Bank: Opening + Deposits - Withdrawals = Closing
+   - Investment: Opening + Buys + Gains - Sells = Closing
+   - Shareholder Loan: Opening + Advances - Repayments = Closing
 
 ---
 
