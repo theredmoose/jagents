@@ -129,12 +129,17 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
  
 #### **Deliverables**
 1. Validated transaction summary per company  
-2. Bank reconciliation summary  
-3. List of outstanding/unreconciled transactions
+2. Bank reconciliation summary
+3. Categorization exception report
+4. Vendor standardization list
+5. Reclassification journal entries (if needed)
 
 #### **Quality Checks**
 1. All bank accounts balance to statements within tolerance  
-2. No missing gaps of transaction data  
+2. No missing gaps of transaction data
+3. Zero uncategorized transactions
+4. Income categories match T4A/T5 reporting
+5. Expense categories align with CRA guidelines
 
 
 
