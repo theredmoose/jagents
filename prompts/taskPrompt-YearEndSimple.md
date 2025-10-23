@@ -204,8 +204,31 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 #### **Quality Checks**
 1. tbd
 
+### TASK AREA 6.5: Tax Optimization Review (NEW)
+#### Objective: Identify opportunities before finalization
 
-### **TASK AREA 6: **Report Generation and Quality Control**: Generate all required financial reports in standardized format.**
+#### Activities:
+1. **Income Splitting Review**
+   - TOSI rules compliance
+   - Dividend vs. salary optimization
+   - Family trust opportunities
+
+2. **Corporate Tax Planning**
+   - Small business deduction utilization
+   - Passive income implications
+   - Inter-corporate dividends
+
+3. **Investment Efficiency**
+   - T1135 optimization strategies
+   - Capital vs. income classification
+   - Loss carry-forward/back opportunities
+
+4. **Expense Maximization**
+   - Home office expense allocation
+   - Vehicle expenses (best method)
+   - Meal & entertainment (50% rule compliance)
+
+### **TASK AREA 7: **Report Generation and Quality Control**: Generate all required financial reports in standardized format.**
 #### **Objective:** To perform final balance checks.
 
 #### **Activities**
