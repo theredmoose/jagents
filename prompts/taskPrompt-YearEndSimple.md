@@ -73,13 +73,12 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 
 ## The 7 Task Areas:
 
-1. **Initial Data Preparation and Reconciliation** \- Ensure all raw financial data is accurately imported, updated, and reconciled  
-2. **Income and Expense Categorization Review** \- Ensure all transactions are correctly categorized for tax purposes  
-3. **Shared Expense Calculation and Allocation** \- Accurately calculate and allocate shared operational expenses among companies  
-4. **Inter-Company Transactions and Shareholder Loans** \- Verify and document all transfers between entities and shareholder loan activity 
-5. **Investment Portfolio Review and Compliance** \- Verify investment income, capital gains/losses, and T1135 compliance  
-6. **Report Generation and Quality Control** \- Generate all required financial reports in standardized format  
-7. **Final Documentation and Package Preparation** \- Compile all supporting documentation for external tax accountants
+1. Initial Data Preparation and Reconciliation
+2. Generate Initial Trial Reports
+3. Shared Expense Calculation and Allocation
+4. Inter-Company Transactions and Shareholder Loans
+5. Investment Portfolio Review and Compliance
+6. Report Generation and Quality Control
 
 ---
 
@@ -173,7 +172,7 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 
 
 
-### **TASK AREA 3: Inter-Company Transactions and Shareholder Loans **
+### **TASK AREA 4: Inter-Company Transactions and Shareholder Loans **
 #### **Objective:** Verify and document all transfers between entities and shareholder loan activity
 
 #### **Activities**
@@ -187,7 +186,7 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 1. All interco transfers are equal from both sides.
 
 
-### **TASK AREA 4: Investment Portfolio Review and Compliance **
+### **TASK AREA 5: Investment Portfolio Review and Compliance **
 #### **Objective:** Verify investment income, capital gains/losses, and T1135 compliance.
 
 #### **Activities**
@@ -201,7 +200,7 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 1. tbd
 
 
-### **TASK AREA 5: **Report Generation and Quality Control**: Generate all required financial reports in standardized format.**
+### **TASK AREA 6: **Report Generation and Quality Control**: Generate all required financial reports in standardized format.**
 #### **Objective:** To perform final balance checks.
 
 #### **Activities**
