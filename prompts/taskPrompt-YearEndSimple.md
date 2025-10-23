@@ -55,7 +55,7 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 1. **Initial Data Preparation and Reconciliation** \- Ensure all raw financial data is accurately imported, updated, and reconciled  
 2. **Income and Expense Categorization Review** \- Ensure all transactions are correctly categorized for tax purposes  
 3. **Shared Expense Calculation and Allocation** \- Accurately calculate and allocate shared operational expenses among companies  
-4. **Inter-Company Transactions and Shareholder Loans** \- Verify and document all transfers between entities and shareholder loan activity  
+4. **Inter-Company Transactions and Shareholder Loans** \- Verify and document all transfers between entities and shareholder loan activity 
 5. **Investment Portfolio Review and Compliance** \- Verify investment income, capital gains/losses, and T1135 compliance  
 6. **Report Generation and Quality Control** \- Generate all required financial reports in standardized format  
 7. **Final Documentation and Package Preparation** \- Compile all supporting documentation for external tax accountants
@@ -65,25 +65,136 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 ## DETAILED TASK AREA SPECIFICATIONS
 
 ### **TASK AREA 1: Initial Data Preparation and Reconciliation**
-
-#### **Objective:** Ensure all raw financial data is accurately imported, updated, and reconciled.
+#### **Objective:** Ensure all raw financial data is complete, accurately imported, and reconciled.
 
 #### **Activities**
-1. **Bank Balance Comparison** : Compare the bank statements with Quicken reports to ensure that the start and end balances on each statement matches the balances in the quicken reports.
+1. **Review Transaction Data for Completeness**: Review raw data to identify if transactions are Uncateogirzed or incomplete.
 
-2. **Check Recurring Tasks**: Review transactions in the Inc\&Exp reports to identify if any recurring transactions are missing months.  E.g. utility bills,   
-     
-3. **Incorrect Account**: Review the reports to identify any transactions that look like they come from the wrong account.  E.g.  An expense item in the MB MedCorp report shows it came from the ON MedCorp bank account.  
-     
-4. **Identify Missing Transactions**:  For each report review the previous two years reports to identify if any common transactions are missing.  
+2. **Identify Missing Transactions**:  For each report review the previous two years reports to identify if any common transactions are missing.
 
+  a) **Check Recurring Tasks**: Review transactions in the Inc\&Exp reports to identify if any recurring transactions are missing months.  e.g. utility bills,  
 
+  b)  **Compare Bank Balances**: Compare the institutional bank statements with Quicken reports to ensure that the start and end balances on each statement matches the balances in the quicken reports.
+
+  c) **Identify Missing Transactions**: Review the previous years reports to identify if any common transactions are missing.
+
+3. **Identify Potentially Inaccurate Categorization**:
+
+   a) **Identify Vendor Inconsistencies**: Review transactions to identify a transaction might be inaccuately categorized.
+
+   b) **Incorrect Account**: Identify any transactions that look like they come from the wrong account.  E.g.  An expense item in one corp shows it is expensed to another corp's category.  
+
+4. ** Cash Inflows / Outflows**: Ensure that initialcashbalance + inflows - outflows = Ending Cash Balance
+
+5. **Identify Transaction Anomolies**: 
+
+   Transaction Anomalies:
+    a) Duplicate transactions (same date, amount, security)
+    b) Unusual transaction sizes (>3 std deviations)
+    c) Missing expected transactions (dividends, interest)
+    d) Transactions on non-business days
+    e) Negative balances
+   
+   Pattern Anomalies:
+    a) Changes in transaction frequency
+    b) Unusual counterparties or accounts
+    c) Security purchases/sales without corresponding cash flows
+    d) Return of capital adjustments not matching holdings
+   
+   Cross-Account Anomalies:
+    a) Same transaction appearing in multiple accounts
+    b) Transfers that don't balance (XIn without matching XOut)
+    c) Inconsistent security prices across accounts
+
+ 
 #### **Deliverables**
-5. Validated transaction summary per company  
-6. Bank reconciliation summary  
-7. List of outstanding/unreconciled transactions
+1. Validated transaction summary per company  
+2. Bank reconciliation summary  
+3. List of outstanding/unreconciled transactions
 
 #### **Quality Checks**
-8. All bank accounts balance to statements within tolerance  
-9. No missing gaps of transaction data  
-10. All accounts show "reconciled" status in Quicken
+1. All bank accounts balance to statements within tolerance  
+2. No missing gaps of transaction data  
+
+
+
+### **TASK AREA 2: Generate Initial Trial Reports**
+#### **Objective:** Generate initial trial balance reports to perform next level analysis.
+
+#### **Activities**
+1. Generate Reports
+   
+#### **Deliverables**
+1. Initial Draft Reports
+
+#### **Quality Checks**
+1. Reconciliation:
+
+    Opening balance + transactions ≠ closing balance
+    Cash + investments totals don't match
+
+   
+### **TASK AREA 3: Shared Expense Calculation and Allocation **
+#### **Objective:** Calculate shared expenses to perform allocation entries.
+
+#### **Activities**
+1. **Shared Expense Calculation and Allocation**: Accurately calculate and allocate shared operational expenses among companies
+   a) Home Office Expense
+   b) Travel Expense Allocation
+
+#### **Deliverables**
+1. Home Office and Travel Transaction Entries
+2. Home Office Annual Expense Comparison
+3. Travel Annual Expense Comparison 
+
+#### **Quality Checks**
+1. Home Office Expenses are within reasonable change limits.
+
+
+
+### **TASK AREA 3: Inter-Company Transactions and Shareholder Loans **
+#### **Objective:** Verify and document all transfers between entities and shareholder loan activity
+
+#### **Activities**
+1. Review Transfers between companies are accurate.
+2. Review Transactions from Personal Accounts: Review all the transactions from personal accounts to calcluate total shareholder loans.
+
+#### **Deliverables**
+1. Transfer Reports
+
+#### **Quality Checks**
+1. All interco transfers are equal from both sides.
+
+
+### **TASK AREA 4: Investment Portfolio Review and Compliance **
+#### **Objective:** Verify investment income, capital gains/losses, and T1135 compliance.
+
+#### **Activities**
+1.tbd
+
+#### **Deliverables**
+1. Annual Investment Performance Report
+2. T1135 Report
+
+#### **Quality Checks**
+1. tbd
+
+
+### **TASK AREA 5: **Report Generation and Quality Control**: Generate all required financial reports in standardized format.**
+#### **Objective:** To perform final balance checks.
+
+#### **Activities**
+1. **Final Documentation and Package Preparation**: Compile all supporting documentation for external tax accountants
+
+#### **Deliverables**
+1. Provide checklist of all supporting documertation
+2. Generate zip file for transfer to accountant.
+
+#### **Quality Checks**
+tbd
+
+
+
+
+
+
