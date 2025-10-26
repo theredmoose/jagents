@@ -44,7 +44,7 @@ Examples:
 - YE25 - MB MedCorp Inc & Exp CAD.xlsx
 - YE25 - 627 Bank Stmt RBC Bus 3022 CAD.pdf
 - YE25 - ON Invmt Transactions USD-none.txt
-- 
+
 **Empty Reports Convention:**
 - Filename ending in "-none" = No transactions expected
 - Empty file = Verification that no activity occurred
@@ -92,11 +92,11 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 
 2. **Identify Missing Transactions**:  For each report review the previous two years reports to identify if any common transactions are missing.
 
-  a) **Check Recurring Tasks**: Review transactions in the Inc\&Exp reports to identify if any recurring transactions are missing months.  e.g. utility bills,  
+   a) **Check Recurring Tasks**: Review transactions in the Inc\&Exp reports to identify if any recurring transactions are missing months.  e.g. utility bills,  
 
-  b)  **Compare Bank Balances**: Compare the institutional bank statements with Quicken reports to ensure that the start and end balances on each statement matches the balances in the quicken reports.
+   b)  **Compare Bank Balances**: Compare the institutional bank statements with Quicken reports to ensure that the start and end balances on each statement matches the balances in the quicken reports.
 
-  c) **Identify Missing Transactions**: Review the previous years reports to identify if any common transactions are missing.
+   c) **Identify Missing Transactions**: Review the previous years reports to identify if any common transactions are missing.
 
 3. **Identify Potentially Inaccurate Categorization**:
 
@@ -104,27 +104,27 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 
    b) **Incorrect Account**: Identify any transactions that look like they come from the wrong account.  E.g.  An expense item in one corp shows it is expensed to another corp's category.  
 
-4. ** Cash Inflows / Outflows**: Ensure that initialcashbalance + inflows - outflows = Ending Cash Balance
+4. **Cash Inflows / Outflows**: Ensure that initial cash balance + inflows - outflows = Ending Cash Balance
 
 5. **Identify Transaction Anomolies**: 
 
-   Transaction Anomalies:
-    a) Duplicate transactions (same date, amount, security)
-    b) Unusual transaction sizes (>3 std deviations)
-    c) Missing expected transactions (dividends, interest)
-    d) Transactions on non-business days
-    e) Negative balances
-   
-   Pattern Anomalies:
-    a) Changes in transaction frequency
-    b) Unusual counterparties or accounts
-    c) Security purchases/sales without corresponding cash flows
-    d) Return of capital adjustments not matching holdings
-   
-   Cross-Account Anomalies:
-    a) Same transaction appearing in multiple accounts
-    b) Transfers that don't balance (XIn without matching XOut)
-    c) Inconsistent security prices across accounts
+        **Transaction Anomalies:**
+         a) Duplicate transactions (same date, amount, security)
+         b) Unusual transaction sizes (>3 std deviations)
+         c) Missing expected transactions (dividends, interest)
+         d) Transactions on non-business days
+         e) Negative balances 
+         
+         **Pattern Anomalies:**
+          a) Changes in transaction frequency
+          b) Unusual counterparties or accounts
+          c) Security purchases/sales without corresponding cash flows
+          d) Return of capital adjustments not matching holdings   
+         
+         **Cross-Account Anomalies:**
+          a) Same transaction appearing in multiple accounts
+          b) Transfers that don't balance (XIn without matching XOut)
+          c) Inconsistent security prices across accounts
 
  
 #### **Deliverables**
@@ -155,8 +155,8 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 #### **Quality Checks**
 1. Reconciliation:
 
-    Opening balance + transactions ≠ closing balance
-    Cash + investments totals don't match
+   Opening balance + transactions ≠ closing balance
+   Cash + investments totals don't match
 
    
 ### **TASK AREA 3: Shared Expense Calculation and Allocation **
@@ -208,11 +208,12 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 #### Objective: Identify opportunities before finalization
 
 #### Activities:
+<!--
 1. **Income Splitting Review**
    - TOSI rules compliance
    - Dividend vs. salary optimization
    - Family trust opportunities
-
+-->
 2. **Corporate Tax Planning**
    - Small business deduction utilization
    - Passive income implications
@@ -226,7 +227,9 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 4. **Expense Maximization**
    - Home office expense allocation
    - Vehicle expenses (best method)
+<!--
    - Meal & entertainment (50% rule compliance)
+-->
 
 ### **TASK AREA 7: **Report Generation and Quality Control**: Generate all required financial reports in standardized format.**
 #### **Objective:** To perform final balance checks.
