@@ -242,7 +242,7 @@ The year-end process is organized into **7 Task Areas**, each with a standardize
 2. Generate zip file for transfer to accountant.
 
 #### **Quality Checks**
-tbd
+none
 
 
 
